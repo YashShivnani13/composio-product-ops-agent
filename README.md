@@ -1,11 +1,14 @@
 # Composio AI Product Ops — 100-App Agent Toolkit Case Study
 
+[![Live Website](https://img.shields.io/badge/Live%20Website-GitHub%20Pages-emerald)](https://yashshivnani13.github.io/composio-product-ops-agent/)
 [![Buildability Coverage](https://img.shields.io/badge/Coverage-100%20Apps-indigo)](#)
-[![Claims Validated](https://img.shields.io/badge/Claims-388%20Validated-emerald)](#)
+[![Claims Validated](https://img.shields.io/badge/Claims-388%20Validated-blue)](#)
 [![Audited Sample](https://img.shields.io/badge/Audit-20%20Apps%20%2F%20100%20Assertions-purple)](#)
-[![Snapshot Date](https://img.shields.io/badge/Snapshot-22%20Aug%202026-blue)](#)
 
 An automated research agent pipeline, multi-pass claim verification engine, and single-file interactive Case Study evaluating **100 SaaS applications** across **10 software categories** for [Composio](https://composio.dev) agent toolkit buildability.
+
+- 🌐 **Live Website**: [https://yashshivnani13.github.io/composio-product-ops-agent/](https://yashshivnani13.github.io/composio-product-ops-agent/)
+- 📁 **GitHub Repository**: [https://github.com/YashShivnani13/composio-product-ops-agent](https://github.com/YashShivnani13/composio-product-ops-agent)
 
 ---
 
@@ -122,7 +125,7 @@ STAGE 3: Audited Sample (20 Apps x 5 Claims = 100 Assertions, 100.0% Accuracy)
 ### Execution Steps
 ```bash
 # 1. Clone repository
-git clone https://github.com/shivn/composio-product-ops-agent.git
+git clone https://github.com/YashShivnani13/composio-product-ops-agent.git
 cd composio-product-ops-agent
 
 # 2. Run the research agent pipeline
@@ -145,7 +148,9 @@ python scripts/export_dataset.py
 
 ## 7. How to View the Case Study
 
-Simply open `index.html` in any modern web browser:
+- **Live Website**: [https://yashshivnani13.github.io/composio-product-ops-agent/](https://yashshivnani13.github.io/composio-product-ops-agent/)
+
+Or open `index.html` locally in any modern web browser:
 ```bash
 # Windows
 start index.html
