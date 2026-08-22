@@ -1,0 +1,101 @@
+id,name,category,website,auth_methods,access_type,api_available,api_types,api_breadth,mcp_status,verdict,score,blocker,evidence_url,confidence
+1,Salesforce,CRM and Sales,salesforce.com,"OAuth2, Bearer Token",self_serve,True,"REST, SOAP, GraphQL",broad,community,ready,88,,https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_oauth_endpoints.htm,95
+2,HubSpot,CRM and Sales,hubspot.com,"OAuth2, API Key",self_serve,True,REST,broad,community,ready,94,,https://developers.hubspot.com/docs/api/private-apps,95
+3,Pipedrive,CRM and Sales,pipedrive.com,"OAuth2, API Key",self_serve,True,REST,broad,community,ready,92,,https://pipedrive.readme.io/docs/how-to-find-the-api-token,95
+4,Attio,CRM and Sales,attio.com,"OAuth2, API Key",self_serve,True,REST,broad,community,ready,90,,https://developers.attio.com/docs/api-keys,95
+5,Twenty,CRM and Sales,twenty.com,"API Key, Bearer Token",self_serve,True,"REST, GraphQL",broad,official,ready,96,,https://docs.twenty.com/developers/api,95
+6,Podio,CRM and Sales,podio.com,"OAuth2, API Key",self_serve,True,REST,moderate,none_found,ready,82,,https://podio.com/api,88
+7,Zoho CRM,CRM and Sales,zoho.com/crm,OAuth2,self_serve,True,REST,broad,community,ready,86,,https://www.zoho.com/crm/developer/docs/api/v2/oauth-overview.html,88
+8,Close,CRM and Sales,close.com,"API Key, Basic",self_serve,True,REST,broad,community,ready,92,,https://developer.close.com/#api-keys,88
+9,Copper,CRM and Sales,copper.com,API Key,self_serve,True,REST,moderate,none_found,ready,84,,https://developer.copper.com/#authentication,88
+10,DealCloud,CRM and Sales,api.docs.dealcloud.com,OAuth2,partner_gated,True,REST,moderate,none_found,blocked,38,Enterprise Partner Gate,https://api.docs.dealcloud.com,95
+11,Zendesk,Support and Helpdesk,zendesk.com,"OAuth2, API Key, Basic",self_serve,True,REST,broad,community,ready,90,,https://developer.zendesk.com/api-reference/ticketing/introduction/#api-token,95
+12,Intercom,Support and Helpdesk,intercom.com,"OAuth2, Bearer Token",self_serve,True,REST,broad,community,ready,92,,https://developers.intercom.com/docs/build-an-app/learn-more/authentication,95
+13,Freshdesk,Support and Helpdesk,freshdesk.com,"API Key, Basic",self_serve,True,REST,broad,none_found,ready,90,,https://developers.freshdesk.com/api/,95
+14,Front,Support and Helpdesk,front.com,"OAuth2, Bearer Token",paid,True,REST,broad,none_found,ready,84,,https://dev.frontapp.com/docs/core-api-getting-started,95
+15,Pylon,Support and Helpdesk,usepylon.com,API Key,self_serve,True,REST,moderate,none_found,ready,82,,https://docs.usepylon.com/docs/api-keys,95
+16,LiveAgent,Support and Helpdesk,liveagent.com,API Key,self_serve,True,REST,broad,none_found,ready,88,,https://api.liveagent.com/docs/v3/,95
+17,Plain,Support and Helpdesk,plain.com,"API Key, Bearer Token",self_serve,True,GraphQL,broad,official,ready,96,,https://www.plain.com/docs/api/graphql/overview,95
+18,Help Scout,Support and Helpdesk,helpscout.com,OAuth2,self_serve,True,REST,broad,none_found,ready,88,,https://developer.helpscout.com/developer-settings/,95
+19,Gorgias,Support and Helpdesk,gorgias.com,"API Key, Basic",paid,True,REST,broad,none_found,ready,84,,https://developers.gorgias.com/reference/authentication,95
+20,Gladly,Support and Helpdesk,gladly.com,"Basic, API Key",partner_gated,True,REST,moderate,none_found,blocked,42,Enterprise Contact Sales Gate,https://developer.gladly.com,95
+21,Slack,Communications and Messaging,slack.com,"OAuth2, Bearer Token",self_serve,True,"REST, Websockets",broad,official,ready,98,,https://api.slack.com/authentication/basics,95
+22,Twilio,Communications and Messaging,twilio.com,"Basic, API Key",self_serve,True,REST,broad,community,ready,96,,https://www.twilio.com/docs/usage/api,95
+23,Zoho Cliq,Communications and Messaging,zoho.com/cliq,OAuth2,self_serve,True,REST,moderate,none_found,ready,86,,https://www.zoho.com/cliq/help/restapi/v2/,95
+24,Lark (Larksuite),Communications and Messaging,open.larksuite.com,"OAuth2, Bearer Token",self_serve,True,REST,broad,community,ready,90,,https://open.larksuite.com/document/home/index,95
+25,Pumble,Communications and Messaging,pumble.com,"OAuth2, Bearer Token",self_serve,True,REST,moderate,none_found,ready,82,,https://pumble.com/help/integrations/pumble-api/,95
+26,Discord,Communications and Messaging,discord.com,"OAuth2, Bot Token",self_serve,True,"REST, Websockets",broad,community,ready,96,,https://discord.com/developers/docs/getting-started,95
+27,Telegram,Communications and Messaging,core.telegram.org,"Bot Token, API Key",self_serve,True,REST,broad,community,ready,98,,https://core.telegram.org/bots/api,95
+28,WhatsApp Business,Communications and Messaging,developers.facebook.com/docs/whatsapp,"OAuth2, Bearer Token",admin_gated,True,REST,broad,community,conditional,68,Meta Business Verification & App Review,https://developers.facebook.com/docs/whatsapp/cloud-api/get-started,95
+29,Aircall,Communications and Messaging,aircall.io,"Basic, API Key",paid,True,REST,broad,none_found,ready,86,,https://developer.aircall.io/docs/authentication,95
+30,Vonage,Communications and Messaging,developer.vonage.com,"Basic, API Key, JWT",self_serve,True,REST,broad,community,ready,92,,https://developer.vonage.com/en/getting-started/concepts/authentication,95
+31,Google Ads,"Marketing, Ads, Email and Social",developers.google.com/google-ads,"OAuth2, Developer Token",admin_gated,True,"REST, gRPC",broad,none_found,conditional,62,Developer Token Application Review,https://developers.google.com/google-ads/api/docs/first-call/dev-token,95
+32,Meta Ads,"Marketing, Ads, Email and Social",developers.facebook.com/docs/marketing-apis,OAuth2,admin_gated,True,REST,broad,community,conditional,70,Meta App Review & ads_management permission,https://developers.facebook.com/docs/marketing-apis/access,95
+33,LinkedIn Ads,"Marketing, Ads, Email and Social",learn.microsoft.com/linkedin/marketing,OAuth2,admin_gated,True,REST,broad,none_found,conditional,68,MDP (Marketing Developer Platform) Access Request,https://learn.microsoft.com/en-us/linkedin/marketing/getting-started,95
+34,GoHighLevel,"Marketing, Ads, Email and Social",highlevel.stoplight.io,"OAuth2, API Key",paid,True,REST,broad,community,ready,86,,https://highlevel.stoplight.io/docs/location-api,95
+35,Mailchimp,"Marketing, Ads, Email and Social",mailchimp.com/developer,"API Key, OAuth2",self_serve,True,REST,broad,community,ready,92,,https://mailchimp.com/developer/marketing/guides/quick-start/,95
+36,Klaviyo,"Marketing, Ads, Email and Social",developers.klaviyo.com,API Key,self_serve,True,REST,broad,community,ready,92,,https://developers.klaviyo.com/en/docs/retrieve_api_credentials,95
+37,systeme.io,"Marketing, Ads, Email and Social",systeme.io,API Key,self_serve,True,REST,moderate,none_found,ready,82,,https://systeme.io/help/how-to-use-systeme-io-api,95
+38,Pinterest,"Marketing, Ads, Email and Social",developers.pinterest.com,OAuth2,admin_gated,True,REST,broad,none_found,conditional,74,Pinterest App Review for production scopes,https://developers.pinterest.com/docs/api/v5/,95
+39,Threads (Meta),"Marketing, Ads, Email and Social",developers.facebook.com/docs/threads,OAuth2,self_serve,True,REST,moderate,none_found,ready,85,,https://developers.facebook.com/docs/threads,95
+40,SendGrid,"Marketing, Ads, Email and Social",sendgrid.com,API Key,self_serve,True,REST,broad,community,ready,96,,https://docs.sendgrid.com/api-reference/how-to-use-the-sendgrid-v3-api/authentication,95
+41,Shopify,Ecommerce,shopify.dev,"OAuth2, Bearer Token",self_serve,True,"GraphQL, REST",broad,official,ready,98,,https://shopify.dev/docs/api/admin-graphql,95
+42,WooCommerce,Ecommerce,woocommerce.com/document/woocommerce-rest-api,"Basic, API Key",self_serve,True,REST,broad,community,ready,94,,https://woocommerce.com/document/woocommerce-rest-api/,95
+43,BigCommerce,Ecommerce,developer.bigcommerce.com,"OAuth2, API Key",self_serve,True,"REST, GraphQL",broad,none_found,ready,90,,https://developer.bigcommerce.com/docs/start/authentication/api-accounts,95
+44,Salesforce Commerce Cloud,Ecommerce,developer.salesforce.com/docs/commerce,"OAuth2, JWT",partner_gated,True,REST,broad,none_found,blocked,38,Enterprise Tenant & Account Manager Access,https://developer.salesforce.com/docs/commerce/commerce-api,95
+45,Magento (Adobe Commerce),Ecommerce,developer.adobe.com/commerce,"Bearer Token, OAuth2",self_serve,True,"REST, GraphQL",broad,community,ready,90,,https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-auth-token/,95
+46,Squarespace,Ecommerce,developers.squarespace.com,"API Key, OAuth2",paid,True,REST,moderate,none_found,ready,84,,https://developers.squarespace.com/commerce-api/authentication,95
+47,Ecwid,Ecommerce,api-docs.ecwid.com,"OAuth2, Bearer Token",self_serve,True,REST,broad,none_found,ready,88,,https://api-docs.ecwid.com/reference/getting-started,95
+48,Gumroad,Ecommerce,gumroad.com/api,"OAuth2, Bearer Token",self_serve,True,REST,moderate,community,ready,90,,https://gumroad.com/api,95
+49,Amazon Selling Partner,Ecommerce,developer-docs.amazon.com/sp-api,"OAuth2, AWS IAM",admin_gated,True,REST,broad,community,conditional,55,SP-API Developer Vetting & Professional Seller Account,https://developer-docs.amazon.com/sp-api/docs/registering-as-a-developer,95
+50,fanbasis,Ecommerce,fanbasis.com,Unknown,contact_sales,False,,none,none_found,blocked,15,No Public API Documented,https://fanbasis.com,95
+51,DataForSEO,"Data, SEO and Scraping",docs.dataforseo.com,"Basic, API Key",self_serve,True,REST,broad,community,ready,94,,https://docs.dataforseo.com/v3/overview/,95
+52,SE Ranking,"Data, SEO and Scraping",seranking.com/api,API Key,paid,True,REST,moderate,none_found,ready,82,,https://seranking.com/api.html,95
+53,Ahrefs,"Data, SEO and Scraping",ahrefs.com/api,"API Key, Bearer Token",paid,True,REST,broad,community,ready,84,,https://ahrefs.com/api/documentation,95
+54,MrScraper,"Data, SEO and Scraping",docs.mrscraper.com,API Key,self_serve,True,REST,moderate,none_found,ready,88,,https://docs.mrscraper.com/api-reference,95
+55,Apify,"Data, SEO and Scraping",docs.apify.com,"API Key, Bearer Token",self_serve,True,REST,broad,official,ready,98,,https://docs.apify.com/api/v2,95
+56,Firecrawl,"Data, SEO and Scraping",firecrawl.dev,"API Key, Bearer Token",self_serve,True,REST,moderate,official,ready,98,,https://docs.firecrawl.dev/api-reference/endpoint/scrape,95
+57,Bright Data,"Data, SEO and Scraping",brightdata.com,"API Key, Bearer Token",self_serve,True,REST,broad,community,ready,92,,https://docs.brightdata.com/api-reference/overview,95
+58,Sherlock,"Data, SEO and Scraping",github.com/sherlock-project/sherlock,None,self_serve,True,CLI,narrow,community,conditional,72,Local Python/Docker Execution Required,https://github.com/sherlock-project/sherlock,95
+59,Waterfall.io,"Data, SEO and Scraping",waterfall.io,API Key,contact_sales,True,REST,moderate,none_found,blocked,36,Contact Sales & Enterprise Contract Gate,https://waterfall.io,95
+60,Clay,"Data, SEO and Scraping",clay.com,API Key,paid,True,REST,moderate,community,ready,86,,https://www.clay.com/docs,95
+61,GitHub,"Developer, Infra and Data Platforms",docs.github.com/rest,"OAuth2, Personal Access Token, GitHub App",self_serve,True,"REST, GraphQL",broad,official,ready,100,,https://docs.github.com/en/rest,95
+62,Vercel,"Developer, Infra and Data Platforms",vercel.com/docs/rest-api,"Bearer Token, OAuth2",self_serve,True,REST,broad,community,ready,96,,https://vercel.com/docs/rest-api,95
+63,Netlify,"Developer, Infra and Data Platforms",docs.netlify.com/api,"Bearer Token, OAuth2",self_serve,True,REST,broad,community,ready,94,,https://docs.netlify.com/api/get-started/,95
+64,Cloudflare,"Developer, Infra and Data Platforms",developers.cloudflare.com/api,"Bearer Token, API Key",self_serve,True,REST,broad,official,ready,98,,https://developers.cloudflare.com/api/,95
+65,Supabase,"Developer, Infra and Data Platforms",supabase.com/docs,"API Key, Bearer Token, OAuth2",self_serve,True,"REST, GraphQL",broad,official,ready,98,,https://supabase.com/docs/guides/api,95
+66,Neo4j,"Developer, Infra and Data Platforms",neo4j.com/docs/api,"Basic, API Key, Bearer Token",self_serve,True,"REST, Bolt Protocol",broad,official,ready,96,,https://neo4j.com/docs/aura/platform/api/overview/,95
+67,Snowflake,"Developer, Infra and Data Platforms",docs.snowflake.com,"OAuth2, JWT, Basic",paid,True,REST,broad,community,ready,88,,https://docs.snowflake.com/en/developer-guide/sql-api/overview,95
+68,MongoDB Atlas,"Developer, Infra and Data Platforms",mongodb.com/docs/atlas/api,"Basic, API Key, Bearer Token",self_serve,True,REST,broad,official,ready,96,,https://www.mongodb.com/docs/atlas/api/atlas-api-overview/,95
+69,Datadog,"Developer, Infra and Data Platforms",docs.datadoghq.com/api,"API Key, Bearer Token",self_serve,True,REST,broad,community,ready,92,,https://docs.datadoghq.com/api/latest/authentication/,95
+70,Sentry,"Developer, Infra and Data Platforms",docs.sentry.io/api,Bearer Token,self_serve,True,REST,broad,official,ready,98,,https://docs.sentry.io/api/auth/,95
+71,Notion,Productivity and Project Management,developers.notion.com,"Bearer Token, OAuth2",self_serve,True,REST,broad,official,ready,98,,https://developers.notion.com/docs/authorization,95
+72,Airtable,Productivity and Project Management,airtable.com/developers,"Bearer Token, OAuth2",self_serve,True,REST,broad,community,ready,96,,https://airtable.com/developers/web/api/introduction,95
+73,Linear,Productivity and Project Management,developers.linear.app,"API Key, OAuth2",self_serve,True,GraphQL,broad,official,ready,98,,https://developers.linear.app/docs/graphql/working-with-the-graphql-api,95
+74,Jira,Productivity and Project Management,developer.atlassian.com,"Basic, OAuth2",self_serve,True,REST,broad,community,ready,94,,https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/,95
+75,Asana,Productivity and Project Management,developers.asana.com,"Bearer Token, OAuth2",self_serve,True,REST,broad,community,ready,92,,https://developers.asana.com/docs/personal-access-token,95
+76,Monday.com,Productivity and Project Management,developer.monday.com,"Bearer Token, OAuth2",self_serve,True,GraphQL,broad,community,ready,94,,https://developer.monday.com/api-reference/docs/authentication,95
+77,ClickUp,Productivity and Project Management,clickup.com/api,"API Key, OAuth2",self_serve,True,REST,broad,community,ready,92,,https://clickup.com/api/developer-portal/authentication/,95
+78,Coda,Productivity and Project Management,coda.io/developers,Bearer Token,self_serve,True,REST,broad,community,ready,90,,https://coda.io/developers/apis/v1,95
+79,Smartsheet,Productivity and Project Management,smartsheet.com/developers,"Bearer Token, OAuth2",self_serve,True,REST,broad,community,ready,90,,https://smartsheet.redoc.ly/#section/API-Basics/Authentication-and-Access-Tokens,95
+80,Harvest,Productivity and Project Management,help.getharvest.com/api-v2,"Bearer Token, OAuth2",self_serve,True,REST,broad,community,ready,92,,https://help.getharvest.com/api-v2/authentication-help/authentication/authentication/,95
+81,Stripe,Finance and Fintech,stripe.com/docs/api,"API Key, Bearer Token, OAuth2",self_serve,True,REST,broad,official,ready,100,,https://stripe.com/docs/api/authentication,95
+82,Plaid,Finance and Fintech,plaid.com/docs,"API Key, Bearer Token",self_serve,True,REST,broad,community,ready,94,,https://plaid.com/docs/api/tokens/,95
+83,Binance,Finance and Fintech,binance-docs.github.io,"API Key, HMAC SHA256",self_serve,True,"REST, Websockets",broad,community,ready,92,,https://binance-docs.github.io/apidocs/spot/en/#authentication-aligned-with-security,95
+84,Paygent Connect,Finance and Fintech,paygent.co.jp,"Basic, API Key",contact_sales,True,REST,moderate,none_found,blocked,30,Japanese Enterprise Merchant Contract Gate,https://www.paygent.co.jp/merchant/,95
+85,iPayX,Finance and Fintech,ipayx.ai/docs,API Key,self_serve,True,REST,moderate,none_found,ready,80,,https://ipayx.ai/docs,95
+86,QuickBooks,Finance and Fintech,developer.intuit.com,OAuth2,self_serve,True,REST,broad,community,ready,90,,https://developer.intuit.com/app/developer/qbo/docs/develop,95
+87,Xero,Finance and Fintech,developer.xero.com,OAuth2,self_serve,True,REST,broad,community,ready,90,,https://developer.xero.com/documentation/getting-started/getting-started-guide,95
+88,Brex,Finance and Fintech,developer.brex.com,"OAuth2, Bearer Token",paid,True,REST,broad,none_found,ready,86,,https://developer.brex.com/docs/authentication/,95
+89,Ramp,Finance and Fintech,docs.ramp.com,"OAuth2, Bearer Token",paid,True,REST,broad,none_found,ready,86,,https://docs.ramp.com/docs/developer-overview,95
+90,PitchBook,Finance and Fintech,pitchbook.com,"OAuth2, API Key",contact_sales,True,REST,broad,none_found,blocked,25,Enterprise Sales Gate ($20k+/yr),https://pitchbook.com/products/direct-data,95
+91,NotebookLM,"AI, Research and Media-native",cloud.google.com/gemini,"OAuth2, API Key",admin_gated,True,"REST, SDK",broad,community,conditional,65,Google Cloud Project Billing & Vertex AI Quota,https://cloud.google.com/generative-ai-app-builder/docs/overview,95
+92,Otter AI,"AI, Research and Media-native",help.otter.ai,Cookie / Session,contact_sales,False,,none,community,blocked,35,No Official Public API,https://help.otter.ai,95
+93,Fathom,"AI, Research and Media-native",fathom.video,"API Key, Bearer Token",self_serve,True,REST,moderate,none_found,ready,82,,https://fathom.video/api,95
+94,Consensus,"AI, Research and Media-native",consensus.app,API Key,contact_sales,True,REST,narrow,none_found,blocked,40,Private Beta & Contact Sales Gate,https://consensus.app,95
+95,Reducto,"AI, Research and Media-native",reducto.ai,"API Key, Bearer Token",self_serve,True,REST,moderate,official,ready,98,,https://docs.reducto.ai/api-reference/introduction,95
+96,Devin,"AI, Research and Media-native",docs.devin.ai,"API Key, Bearer Token",paid,True,REST,moderate,official,conditional,75,Paid Devin Plan Requirement,https://docs.devin.ai,95
+97,higgsfield,"AI, Research and Media-native",higgsfield.ai/cli,"API Key, CLI Token",self_serve,True,"REST, CLI",moderate,none_found,ready,82,,https://higgsfield.ai,95
+98,Mermaid CLI,"AI, Research and Media-native",github.com/mermaid-js/mermaid-cli,None,self_serve,True,CLI,narrow,community,ready,88,,https://github.com/mermaid-js/mermaid-cli,95
+99,YouTube Transcript,"AI, Research and Media-native",transcriptapi.com,API Key,self_serve,True,REST,narrow,community,ready,92,,https://transcriptapi.com,95
+100,Grain,"AI, Research and Media-native",grain.com,"API Key, Bearer Token",self_serve,True,REST,moderate,none_found,ready,86,,https://grain.com,95

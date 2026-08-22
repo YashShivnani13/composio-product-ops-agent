@@ -1,0 +1,440 @@
+{
+  "metadata": {
+    "total_apps": 100,
+    "snapshot_date": "22 Aug 2026",
+    "ready_count": 82,
+    "conditional_count": 9,
+    "blocked_count": 9,
+    "action_needed_count": 18,
+    "self_serve_count": 72,
+    "self_serve_pct": 72.0,
+    "gated_count": 28,
+    "gated_pct": 28.0,
+    "api_documented_count": 98,
+    "api_documented_pct": 98.0
+  },
+  "verdicts": {
+    "ready": 82,
+    "conditional": 9,
+    "blocked": 9
+  },
+  "access_models": {
+    "self_serve": 72,
+    "paid": 12,
+    "admin_gated": 7,
+    "partner_gated": 3,
+    "contact_sales": 6
+  },
+  "auth_counts": {
+    "OAuth2": 53,
+    "Bearer Token": 40,
+    "API Key": 56,
+    "Basic": 15,
+    "Bot Token": 2,
+    "JWT": 3,
+    "Developer Token": 1,
+    "AWS IAM": 1,
+    "Unknown": 1,
+    "None": 2,
+    "Personal Access Token": 1,
+    "GitHub App": 1,
+    "HMAC SHA256": 1,
+    "Cookie / Session": 1,
+    "CLI Token": 1
+  },
+  "mcp_counts": {
+    "official": 17,
+    "community": 48,
+    "none_found": 35
+  },
+  "mcp_coverage": {
+    "total_mcp_count": 65,
+    "mcp_coverage_pct": 65.0,
+    "official_count": 17,
+    "community_count": 48,
+    "none_count": 35
+  },
+  "ranked_blockers": {
+    "Paid Subscription Required": 12,
+    "Platform App Review & Admin Approval": 7,
+    "Enterprise Contact Sales Gate": 6,
+    "Enterprise Partner Gate": 3,
+    "Local Execution / No API Documented": 0
+  },
+  "category_metrics": {
+    "CRM and Sales": {
+      "total_apps": 10,
+      "ready_pct": 90.0,
+      "conditional_pct": 0.0,
+      "blocked_pct": 10.0,
+      "self_serve_pct": 90.0,
+      "gated_pct": 10.0,
+      "mcp_coverage_pct": 70.0,
+      "dominant_auth": "OAuth2",
+      "avg_score": 84.2
+    },
+    "Support and Helpdesk": {
+      "total_apps": 10,
+      "ready_pct": 90.0,
+      "conditional_pct": 0.0,
+      "blocked_pct": 10.0,
+      "self_serve_pct": 70.0,
+      "gated_pct": 30.0,
+      "mcp_coverage_pct": 30.0,
+      "dominant_auth": "API Key",
+      "avg_score": 83.6
+    },
+    "Communications and Messaging": {
+      "total_apps": 10,
+      "ready_pct": 90.0,
+      "conditional_pct": 10.0,
+      "blocked_pct": 0.0,
+      "self_serve_pct": 80.0,
+      "gated_pct": 20.0,
+      "mcp_coverage_pct": 70.0,
+      "dominant_auth": "OAuth2",
+      "avg_score": 89.2
+    },
+    "Marketing, Ads, Email and Social": {
+      "total_apps": 10,
+      "ready_pct": 60.0,
+      "conditional_pct": 40.0,
+      "blocked_pct": 0.0,
+      "self_serve_pct": 50.0,
+      "gated_pct": 50.0,
+      "mcp_coverage_pct": 50.0,
+      "dominant_auth": "OAuth2",
+      "avg_score": 80.7
+    },
+    "Ecommerce": {
+      "total_apps": 10,
+      "ready_pct": 70.0,
+      "conditional_pct": 10.0,
+      "blocked_pct": 20.0,
+      "self_serve_pct": 60.0,
+      "gated_pct": 40.0,
+      "mcp_coverage_pct": 50.0,
+      "dominant_auth": "OAuth2",
+      "avg_score": 74.2
+    },
+    "Data, SEO and Scraping": {
+      "total_apps": 10,
+      "ready_pct": 80.0,
+      "conditional_pct": 10.0,
+      "blocked_pct": 10.0,
+      "self_serve_pct": 60.0,
+      "gated_pct": 40.0,
+      "mcp_coverage_pct": 70.0,
+      "dominant_auth": "API Key",
+      "avg_score": 83.0
+    },
+    "Developer, Infra and Data Platforms": {
+      "total_apps": 10,
+      "ready_pct": 100.0,
+      "conditional_pct": 0.0,
+      "blocked_pct": 0.0,
+      "self_serve_pct": 90.0,
+      "gated_pct": 10.0,
+      "mcp_coverage_pct": 100.0,
+      "dominant_auth": "Bearer Token",
+      "avg_score": 95.6
+    },
+    "Productivity and Project Management": {
+      "total_apps": 10,
+      "ready_pct": 100.0,
+      "conditional_pct": 0.0,
+      "blocked_pct": 0.0,
+      "self_serve_pct": 100.0,
+      "gated_pct": 0.0,
+      "mcp_coverage_pct": 100.0,
+      "dominant_auth": "OAuth2",
+      "avg_score": 93.6
+    },
+    "Finance and Fintech": {
+      "total_apps": 10,
+      "ready_pct": 80.0,
+      "conditional_pct": 0.0,
+      "blocked_pct": 20.0,
+      "self_serve_pct": 60.0,
+      "gated_pct": 40.0,
+      "mcp_coverage_pct": 50.0,
+      "dominant_auth": "API Key",
+      "avg_score": 77.3
+    },
+    "AI, Research and Media-native": {
+      "total_apps": 10,
+      "ready_pct": 60.0,
+      "conditional_pct": 20.0,
+      "blocked_pct": 20.0,
+      "self_serve_pct": 60.0,
+      "gated_pct": 40.0,
+      "mcp_coverage_pct": 60.0,
+      "dominant_auth": "API Key",
+      "avg_score": 74.3
+    }
+  },
+  "mcp_impact": {
+    "mcp_apps_count": 65,
+    "non_mcp_apps_count": 35,
+    "mcp_ready_percentage": 89.2,
+    "non_mcp_ready_percentage": 68.6,
+    "readiness_delta": 20.6,
+    "mcp_avg_score": 90.0,
+    "non_mcp_avg_score": 71.6
+  },
+  "prioritized_apps": [
+    {
+      "id": 61,
+      "name": "GitHub",
+      "category": "Developer, Infra and Data Platforms",
+      "verdict": "ready",
+      "base_score": 100,
+      "priority_score": 115.0,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 81,
+      "name": "Stripe",
+      "category": "Finance and Fintech",
+      "verdict": "ready",
+      "base_score": 100,
+      "priority_score": 115.0,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 21,
+      "name": "Slack",
+      "category": "Communications and Messaging",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 41,
+      "name": "Shopify",
+      "category": "Ecommerce",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 55,
+      "name": "Apify",
+      "category": "Data, SEO and Scraping",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 56,
+      "name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 64,
+      "name": "Cloudflare",
+      "category": "Developer, Infra and Data Platforms",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 65,
+      "name": "Supabase",
+      "category": "Developer, Infra and Data Platforms",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 70,
+      "name": "Sentry",
+      "category": "Developer, Infra and Data Platforms",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 71,
+      "name": "Notion",
+      "category": "Productivity and Project Management",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 73,
+      "name": "Linear",
+      "category": "Productivity and Project Management",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 95,
+      "name": "Reducto",
+      "category": "AI, Research and Media-native",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 112.7,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 5,
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "verdict": "ready",
+      "base_score": 96,
+      "priority_score": 110.4,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 17,
+      "name": "Plain",
+      "category": "Support and Helpdesk",
+      "verdict": "ready",
+      "base_score": 96,
+      "priority_score": 110.4,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 66,
+      "name": "Neo4j",
+      "category": "Developer, Infra and Data Platforms",
+      "verdict": "ready",
+      "base_score": 96,
+      "priority_score": 110.4,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 68,
+      "name": "MongoDB Atlas",
+      "category": "Developer, Infra and Data Platforms",
+      "verdict": "ready",
+      "base_score": 96,
+      "priority_score": 110.4,
+      "access_type": "self_serve",
+      "mcp_status": "official",
+      "blocker": "None"
+    },
+    {
+      "id": 27,
+      "name": "Telegram",
+      "category": "Communications and Messaging",
+      "verdict": "ready",
+      "base_score": 98,
+      "priority_score": 105.8,
+      "access_type": "self_serve",
+      "mcp_status": "community",
+      "blocker": "None"
+    },
+    {
+      "id": 22,
+      "name": "Twilio",
+      "category": "Communications and Messaging",
+      "verdict": "ready",
+      "base_score": 96,
+      "priority_score": 103.7,
+      "access_type": "self_serve",
+      "mcp_status": "community",
+      "blocker": "None"
+    },
+    {
+      "id": 26,
+      "name": "Discord",
+      "category": "Communications and Messaging",
+      "verdict": "ready",
+      "base_score": 96,
+      "priority_score": 103.7,
+      "access_type": "self_serve",
+      "mcp_status": "community",
+      "blocker": "None"
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "category": "Marketing, Ads, Email and Social",
+      "verdict": "ready",
+      "base_score": 96,
+      "priority_score": 103.7,
+      "access_type": "self_serve",
+      "mcp_status": "community",
+      "blocker": "None"
+    }
+  ],
+  "roadmap_30_days": {
+    "week1_ship": [
+      "GitHub",
+      "Stripe",
+      "Slack",
+      "Shopify",
+      "Apify",
+      "Firecrawl",
+      "Cloudflare"
+    ],
+    "week2_remove_friction": [
+      "Sherlock",
+      "Devin",
+      "Meta Ads",
+      "Pinterest",
+      "WhatsApp Business"
+    ],
+    "week3_partnerships": [
+      "Gladly",
+      "DealCloud",
+      "Salesforce Commerce Cloud",
+      "Consensus",
+      "Otter AI"
+    ],
+    "week4_mcp_leverage": [
+      "GitHub",
+      "Stripe",
+      "Slack",
+      "Shopify",
+      "Apify",
+      "Firecrawl"
+    ]
+  }
+}

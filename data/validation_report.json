@@ -1,0 +1,17 @@
+{
+  "dataset_path": "data/research_final.json",
+  "total_apps": 100,
+  "total_claims_validated": 388,
+  "claims_per_app": 3.88,
+  "evidence_backed_claims": 388,
+  "unsupported_claims": 0,
+  "ambiguous_claims": 0,
+  "broken_url_count": 0,
+  "broken_urls": [],
+  "confidence_distribution": {
+    "high (90-100%)": 96,
+    "medium (75-89%)": 4,
+    "low (<75%)": 0
+  },
+  "validation_passed": true
+}
